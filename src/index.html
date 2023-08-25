@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <title>Landing Page</title>
 </head>
 
@@ -186,6 +188,58 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-blue-950">
+        <div
+            class="container flex flex-col-reverse justify-between mx-auto px-5 py-10 space-y-12 md:flex-row md:space-y-0">
+            <!-- Logo and social icons -->
+            <div class="flex flex-col-reverse justify-around items-center md:flex-col space-y-6">
+                <div class="mt-6 text-white md:hidden">Copyright &copy; 2023. All Rights Reserved.</div>
+                <div class="mt-3 md:mt-0">
+                    <img src="../img/logo-white.svg" alt="logo">
+                </div>
+                <div class="flex justify-center text-white space-x-5">
+                    <a href="#">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="#">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="#">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="#">
+                        <i class='bx bxl-youtube'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Nav List -->
+            <div class="flex space-x-12 justify-around text-white">
+                <div class="flex flex-col space-y-2">
+                    <a href="#" class="hover:text-lightBlue">Home</a>
+                    <a href="#" class="hover:text-lightBlue">Pricing</a>
+                    <a href="#" class="hover:text-lightBlue">Product</a>
+                    <a href="#" class="hover:text-lightBlue">Community</a>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <a href="#" class="hover:text-lightBlue">Careers</a>
+                    <a href="#" class="hover:text-lightBlue">About</a>
+                    <a href="#" class="hover:text-lightBlue">Privacy Policy</a>
+                </div>
+            </div>
+            <!-- Search Box -->
+            <div class="flex flex-col justify-between">
+                <form>
+                    <div class="flex space-x-3">
+                        <input type="text" class="flex-1 px-4 py-2 rounded-full focus:outline-none" placeholder="Search">
+                        <button type="submit" class="rounded-full px-5 bg-blue-500 hover:bg-blue-600 text-white">Go</button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:flex">Copyright &copy; 2023. All Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
